@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:5f4e6f0e-d29f-4f1a-82c5-9d81b65fab48",
+  "serialNumber" : "urn:uuid:b429db9c-3518-4ba4-bc6e-d8835c87efe3",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-02-05T13:26:33Z",
+    "timestamp" : "2026-02-05T13:42:15Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -48,11 +48,11 @@
     ],
     "component" : {
       "group" : "kr.co.mdi",
-      "name" : "mdi-boot-data-access-pstmt",
+      "name" : "mdi-boot-data-access-jpa",
       "version" : "0.1",
       "description" : "mobile-device-info",
       "licenses" : [ ],
-      "purl" : "pkg:maven/kr.co.mdi/mdi-boot-data-access-pstmt@0.1?type=jar",
+      "purl" : "pkg:maven/kr.co.mdi/mdi-boot-data-access-jpa@0.1?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -64,7 +64,7 @@
         }
       ],
       "type" : "application",
-      "bom-ref" : "pkg:maven/kr.co.mdi/mdi-boot-data-access-pstmt@0.1?type=jar"
+      "bom-ref" : "pkg:maven/kr.co.mdi/mdi-boot-data-access-jpa@0.1?type=jar"
     }
   },
   "components" : [
@@ -6375,7 +6375,7 @@
   ],
   "dependencies" : [
     {
-      "ref" : "pkg:maven/kr.co.mdi/mdi-boot-data-access-pstmt@0.1?type=jar",
+      "ref" : "pkg:maven/kr.co.mdi/mdi-boot-data-access-jpa@0.1?type=jar",
       "dependsOn" : [
         "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@3.5.5?type=jar",
         "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf@3.5.5?type=jar",
